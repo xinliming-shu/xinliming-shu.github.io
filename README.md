@@ -67,3 +67,4 @@
 [3.快速部署](https://github.com/manerfan/vuesume/wiki/3.快速部署)  
 
 [4.扩展开发](https://github.com/manerfan/vuesume/wiki/4.扩展开发)  
+# limingxin-shu.github.io
