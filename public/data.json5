@@ -1,0 +1,126 @@
+{
+  // 页面title
+  title: "| 智能机器人",
+  // 社交链接
+  social: {
+
+    linkedin: "https://www.shu.edu.cn/",
+  },
+  // banner页
+  banner: {
+    anchor: {
+      id: "banner",
+      icon: "home",
+      name: "首页",
+    },
+    title: "xxx实验室",
+    desc: [
+      "实验室介绍",
+//      "特聘研究员",
+//      "上海领军人才",
+//      "海外优青",
+//      "人工智能"
+    ],
+  },
+  // 正文
+  // 不要修改各模块的 anchor.id
+  // 通过display控制模块是否展示
+  // 通过列表顺序控制模块展示顺序
+  modules: [
+    // 关于页
+    {
+      display: true,
+      anchor: {
+        id: "about",
+        icon: "user",
+        name: "关于"
+      },
+      header: {
+        title: "Brief Introduction",
+//        subtitle: ""
+      },
+      content: {
+        md: " <font size=5.5>博士，上海大学教授，本科毕业于吉林大学，中科院大学博士，2015-2020多伦多大学博士后、研究员。2021年入选国家海外高层次青年人才和上海市高层次人才引进，主持基金委面上等项目。主要研究领域为人工智能等。曾经担任TE Connectivity公司机器人卓越中心技术专家。在IEEE Trans on Cybernetics、Nano Energy等发表论文50余篇（其中一篇被Science子刊亮点报道）；国际专利16项，中国专利近50项；两次获国际会议最佳报告奖。成果获加拿大Michael Freeman 和Connaught创新奖。\
+        \n </font>",
+      },
+      // key - value 数量及内容完全自定义，链接自动识别
+//      keys: {
+//        "主页": "1",
+//        "博客": "1",
+//        "专栏": "1",
+//        "邮箱": "1"
+//      },
+    },
+    // 履历
+    {
+      display: true,
+      anchor: {
+        id: "experience",
+        icon: "idcard",
+        name: "经历"
+      },
+      header: {
+        title: "experience",
+//        subtitle: "my experience",
+      },
+      cards: [
+        {
+          title: "研究方向",
+          md: "+  认知启发的人工智能，机器学习，深度学习等 \
+                \n+ 生-机融合机器人：机器人与生命体融合方法，研究复杂生理环境下生-机融合机器人建模方法、智能感知以及生理器官的精准控制技术 \
+                \n+ 智能诊疗：医学图像处理，利用机器学习进行多维信息融合并建立跨尺度智能诊断与预测模型，为疾病的治疗提供决策支持 \
+                \n+ 多无人系统集群控制方法研究 \
+                \n+ 复杂不确定环境下机器人感知与控制",
+        },
+        {
+          title: "教育经历",
+          md: "+  2000.09-2004.06：吉林大学，学士学位\
+          \n+ 2004.09-2009.06：中国科学院沈阳自动化研究所，博士学位",
+
+        },
+        {
+          title: "工作经历",
+//          subtitle: "2019-07 至 2020-12",
+          md: "+  2014.02-2015.05：TE Connectivity研发中心，CoE Expert\
+          \n+ 2019.07-2020.12：多伦多大学 & UHN医院，博士后，研究员\
+          \n+ 2021.01-至&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今：上海大学，计算机工程与科学学院，教授",
+        },
+      ],
+    },
+    //学术论文
+    {
+      display: true,
+      anchor: {
+        id: "papers",
+        icon: "paper-clip",
+        name: "学术论文",
+      },
+      header: {
+        title: "lastest papers",
+      },
+      cards: [
+        {
+          md: "+  Sun, Y., Dou, G., Duan, W., Chen, X., Zheng, J., <font color='blue'>Liming Xin</font>., & Bai, L. (2022). [Involute-arc-leg for Multi-legged Robot: High Stability and Low Energy Consumption. Mechanism and Machine Theory](https://www.sciencedirect.com/science/article/abs/pii/S0094114X21004286), 170, 104701.\
+          \n + Rui Chen, Zean Yuan, Jianglong Guo, Long Bai, Xinyu Zhu, Fuqiang Liu, Huayan Pu,<font color='blue'>Liming Xin</font>, Yan Peng, Jun Luo, Li Wen, Yu Sun. [Legless soft robots capable of rapid, continuous, and steered jumping](https://www.nature.com/articles/s41467-021-27265-w)[J]. Nature communications, 2021, 12(1): 1-12.(IF=14.919)\
+          \n+ Long Bai, Yue Xu,Xiaohong Chen, <font color='blue'>Liming Xin</font>,Junfang Zhang,Kun Li,YuanXi Sun. [Improved mechanical properties and energy absorption of Ti6Al4V laser powder bed fusion lattice structures using curving lattice struts](https://www.sciencedirect.com/science/article/pii/S026412752100695X)[J]. Materials & Design, 2021, 211: 110140.(IF=7.991)\
+          \n+ Bai, L., Zhou, X., Chen, X., <font color='blue'>Liming Xin</font>, Zhang, J., Yang, J., ... & Sun, Y. (2021). [Influence of relative density distribution rules on the mechanical compression responses of additive manufactured Ti6Al4V graded lattice structures](https://www.tandfonline.com/doi/abs/10.1080/15376494.2021.2009600). Mechanics of Advanced Materials and Structures, 1-17.\
+          \n+ Long Bai, Cheng Gong, Xiaohong Chen, Jia Zheng, <font color='blue'>Liming Xin</font>, Yan Xiong, Xiaoying Wu, Mingjin Hu, Kun Li, Yuanxi Sun. [Quasi-Static compressive responses and fatigue behaviour of Ti-6Al-4 V graded lattice structures fabricated by laser powder bed fusion](https://www.sciencedirect.com/science/article/pii/S0264127521006651)[J]. Materials & Design, 2021, 210: 110110.(IF=7.991)\
+          \n+ Zhongjie Li, Yan Peng, Zhibing Xu, Jinlin Peng, <font color='blue'>Liming Xin</font>, Min Wang, Jun Luo, Shaorong Xie, Huayan Pu. [Harnessing energy from suspension systems of oceanic vehicles with high-performance piezoelectric generators](https://www.sciencedirect.com/science/article/abs/pii/S0360544221007726)[J]. Energy, 2021, 228: 120523.(IF=7.147)\
+          \n+ Zhongjie Li, Jun Luo, Shaorong Xie, <font color='blue'>Liming Xin</font>, Hengyu Guo, Huayan Pu, Peilun Yin, Zhibing Xu, Dong Zhang, Yan Peng, Zhengbao Yang, Hani Naguib. [Instantaneous peak 2.1 W-level hybrid energy harvesting from human motions for self-charging battery-powered electronics](https://www.sciencedirect.com/science/article/abs/pii/S2211285520312027)[J]. Nano Energy, 2021, 81: 105629.(IF=17.881)\
+          \n+ <font color='blue'>Liming Xin</font>,Weiran Yao,Yan Peng,Naiming Qi, Shaorong Xie,Changhai Ru,Mitesh Badiwala, Yu Sun. [Model Reference Adaptive Control for Aortic Pressure Regulation in Ex Vivo Heart Perfusion](https://ieeexplore.ieee.org/abstract/document/9036095)[J]. IEEE Transactions on Control Systems Technology, 2020, 29(2): 884-892.(IF=5.485)\
+          \n+ Weiran Yao, <font color='blue'>Liming Xin</font>, Yan Peng, Yang Chen, Naiming Qi, Yu Sun. [Trajectory Consensus for Coordination of Multiple Curvature-Bounded Vehicles](https://ieeexplore.ieee.org/abstract/document/9293128)[J]. IEEE Transactions on Cybernetics, 2020.(IF=11.448)\
+          \n+ Yu, F., Alvarez, J., Ribeiro, R., Rosales, R., Adamson, M.,<font color='blue'>Liming Xin</font>, ... & Badiwala, M. (2020). [DIALYSIS IMPROVES MYOCARDIAL PRESERVATION DURING EX SITU HEART PERFUSION](https://www.onlinecjc.ca/article/S0828-282X(20)30850-3/fulltext). Canadian Journal of Cardiology, 36(10), S117-S118.\
+          \n+ Bai, L., Gong, C., Chen, X., Sun, Y., <font color='blue'>Liming Xin</font>., Pu, H., ... & Luo, J. (2020). [Mechanical properties and energy absorption capabilities of functionally graded lattice structures: Experiments and simulations](https://www.sciencedirect.com/science/article/abs/pii/S0020740320307888). International Journal of Mechanical Sciences, 182, 105735.\
+          \n+ <font color='blue'>Liming Xin</font>, Weiran Yao, Yu F, et al. [Comparison of lactate and glucose during ex situ heart perfusion as predictors of early-stage heart transplantation outcomes](https://www.sciencedirect.com/science/article/abs/pii/S1053249820307762#!)[J]. The Journal of Heart and Lung Transplantation, 2020, 39(4): S180.(IF=10.247)\
+          \n+ Xiao W,<font color='blue'>Liming Xin</font> , Gao S, et al. [Single-beat measurement of left ventricular contractility in normothermic ex situ perfused porcine hearts](https://ieeexplore.ieee.org/abstract/document/9044728)[J]. IEEE Transactions on Biomedical Engineering, 2020, 67(12): 3288-3295.(science子刊亮点报道)\
+          \n+ <font color='blue'>Liming Xin</font>, Ribeiro R V, Alvarez J, et al. [Eight-Hour Ex Situ Perfusion with Functional Assessment of an Adult Heart after 12 Hours Hypothermic Preservation: A Case Study](https://www.jhltonline.org/article/S1053-2498(20)31062-7/fulltext)[J]. The Journal of Heart and Lung Transplantation, 2020, 39(4): S136.(IF=10.247)\
+          \n+ Liu X, <font color='blue'>Liming Xin</font>, Madhusudanan H, et al. [Characterizing the Biomechanical Response of the Right Ventricle via Stereo Digital Image Correlation](https://www.jhltonline.org/article/S1053-2498(20)30774-9/fulltext)[J]. The Journal of Heart and Lung Transplantation, 2020, 39(4): S179-S180.(IF=10.247)\
+          \n+ <font color='blue'>Liming Xin</font>, Yao W, Peng Y, et al. [Model Reference Adaptive Control for Aortic Pressure Regulation in Ex Vivo Heart Perfusion](https://ieeexplore.ieee.org/abstract/document/9036095)[J]. IEEE Transactions on Control Systems Technology, 2020, 29(2): 884-892.(IF=5.485)",
+
+        },
+
+      ],
+
+    },
+  ],
+}
