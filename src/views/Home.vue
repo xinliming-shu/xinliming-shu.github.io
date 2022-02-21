@@ -77,7 +77,7 @@
 
     .layout-header {
         z-index: 0;
-        height: 100vh;
+        height: 70vh;
         overflow: auto;
         padding: 0;
     }

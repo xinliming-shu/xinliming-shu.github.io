@@ -2,6 +2,7 @@
 
 module.exports = {
     outputDir: 'docs',
+    assetsDir:'static',
     productionSourceMap: false,
 
     css: {
@@ -16,5 +17,6 @@ module.exports = {
     //     ]
     // },
 
-    publicPath: '/'
+     publicPath: './'
+    //publicPath:"/limingxin-shu"
 };

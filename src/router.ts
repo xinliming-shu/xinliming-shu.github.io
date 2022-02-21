@@ -8,12 +8,12 @@ import Resarch from './views/Research.vue'
 Vue.use(Router);
 
 export default new Router({
-    mode: 'history',
+    mode: 'hash',
     base: process.env.BASE_URL,
     routes: [
         {
             path: '/',
-            name: 'home',
+            name: 'Home',
             meta: {
                 title: '',
             },

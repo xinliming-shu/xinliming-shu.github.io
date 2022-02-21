@@ -4,6 +4,8 @@
         <div>
             <Topmenu></Topmenu>
             <router-view></router-view>
+<!--            <banner></banner>-->
+<!--            <Home></Home>-->
             <Footer></Footer>
         </div>
 
@@ -42,12 +44,14 @@
 
     import Topmenu from "./components/TopNavi/Topmenu.vue";
     import Footer from "./components/Footer";
-
-
+    import Home from "./views/Home.vue";
+    import banner from "./components/Banner.vue";
     export default {
         components: {
             Footer,
-            Topmenu
+            Topmenu,
+            Home,
+            banner
         }
     }
 </script>

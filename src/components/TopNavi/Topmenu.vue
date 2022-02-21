@@ -3,13 +3,13 @@
         <a href="http://localhost:8080/#Banner"> <el-image
                 :src="require('@/assets/logo7.jpg')"
 
-                style="margin-top: 30px;margin-left: 130px;width:auto;height: 50%">
+                style="margin-top: 40%;margin-left: 60%;width:auto;height: 50%">
         </el-image>
         </a>
                     <el-menu
                         :default-active="this.$route.path"
                         class="el-menu-demo"
-                        style="height: 101px;margin-left: 40px"
+                        style="height: 50%;margin-left:5%;margin-top: 2%;margin-bottom: 1%;margin-right:1%"
                         mode="horizontal"
                         @select="handleSelect"
                          router
