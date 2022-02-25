@@ -1,11 +1,11 @@
 <template>
     <div class="header" >
-        <a href="http://localhost:8080/#Banner"> <el-image
+        <a href="https://xinliming-shu.github.io/#/"> <el-image
                 :src="require('@/assets/logo7.jpg')"
 
-                style="margin-top: 40%;margin-left: 60%;width:auto;height: 50%">
+                style="margin-top: 40%;margin-left: 60%;width:auto;height: 45%">
         </el-image>
-        </a>
+        </a>S
                     <el-menu
                         :default-active="this.$route.path"
                         class="el-menu-demo"
