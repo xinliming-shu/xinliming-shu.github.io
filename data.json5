@@ -13,7 +13,7 @@
       icon: "home",
       name: "首页",
     },
-    title: "xxx实验室",
+    title: "智能机器人",
     desc: [
       "实验室介绍",
 //      "特聘研究员",
@@ -40,7 +40,7 @@
 //        subtitle: ""
       },
       content: {
-        md: " <font size=5.5>博士，上海大学教授，本科毕业于吉林大学，中科院大学博士，2015-2020多伦多大学博士后、研究员。2021年入选国家海外高层次青年人才和上海市高层次人才引进，主持基金委面上等项目。主要研究领域为人工智能等。曾经担任TE Connectivity公司机器人卓越中心技术专家。在IEEE Trans on Cybernetics、Nano Energy等发表论文50余篇（其中一篇被Science子刊亮点报道）；国际专利16项，中国专利近50项；两次获国际会议最佳报告奖。成果获加拿大Michael Freeman 和Connaught创新奖。\
+        md: " <font size=5.5>博士，上海大学教授，本科毕业于吉林大学，中科院大学博士，2015-2020多伦多大学博士后、研究员。2021年入选国家海外高层次青年人才和上海市高层次引进人才，主持基金委面上等项目。主要研究领域为人工智能等。曾经担任TE Connectivity公司机器人卓越中心技术专家。在IEEE Trans on Cybernetics、Nano Energy等发表论文60余篇（其中一篇被Science子刊亮点报道）；国际专利16项，中国专利近50项；两次获国际会议最佳报告奖。成果获加拿大Michael Freeman 和Connaught创新奖。\
         \n </font>",
       },
       // key - value 数量及内容完全自定义，链接自动识别
