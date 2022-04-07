@@ -43,13 +43,6 @@
         md: " <font size=5.5>博士，上海大学教授，本科毕业于吉林大学，中科院大学博士，2015-2020多伦多大学博士后、研究员。2021年入选国家海外高层次青年人才和上海市高层次引进人才，主持基金委面上等项目。主要研究领域为人工智能等。曾经担任TE Connectivity公司机器人卓越中心技术专家。在IEEE Trans on Cybernetics、Nano Energy等发表论文60余篇（其中一篇被Science子刊亮点报道）；国际专利16项，中国专利近50项；两次获国际会议最佳报告奖。成果获加拿大Michael Freeman 和Connaught创新奖。\
         \n </font>",
       },
-      // key - value 数量及内容完全自定义，链接自动识别
-//      keys: {
-//        "主页": "1",
-//        "博客": "1",
-//        "专栏": "1",
-//        "邮箱": "1"
-//      },
     },
     // 履历
     {
@@ -122,5 +115,28 @@
       ],
 
     },
-  ],
+    {
+      display: true,
+      anchor: {
+        id: "blog",
+        icon: "sound",
+        name: "学术动态"
+      },
+      header: {
+        title: "Academic News",
+      },
+      cards: [
+        {
+          title: "  上海大学物理学院尹鑫茂教授作“量子材料的光谱学研究”学术讲座！",
+          md: "\t\t2022年2月23日上午，应上海大学计算机学院邀请，上海大学物理学院教授尹鑫茂老师在宝山校区东区15号楼1104会议室作了题为“量子材料的光谱学研究”的学术讲座，讲座由辛立明教授主持，同时出席本次讲座的嘉宾还有计算机学院党委书记朱洪涛和青年教师。\n\n\t8:30讲座开始，朱书记首先对尹教授的到来表示欢迎并鼓励广大教师和同学们多做学科交流，做学科交叉的前沿研究。\n\n![img](https://raw.githubusercontent.com/xinliming-shu/xinliming-shu.github.io/main/202204062244627.jpeg#pic_center) \n\n\t\t讲座上，尹教授结合自身实践经验和研究成果对量子材料发展历史及其光谱学研究方法作了详细总结，结合国家发展重大需求向同学们阐述了领域发展的关键问题和方向。\n\n![img](https://raw.githubusercontent.com/xinliming-shu/xinliming-shu.github.io/main/202204062310749.jpg) \n\n\t\t尹教授结合自身实践经验和研究成果回答了老师和同学们的提问并为如何开展稳定的跨学科交叉工作和开展日常科研提出了建设性意见。\n\n![img](https://raw.githubusercontent.com/xinliming-shu/xinliming-shu.github.io/main/202204062241884.jpg) \n\n\t\t最后，辛立明教授对尹教授的学术报告和科研经验做了总结，进一步开阔了在场同学的学术视野。",
+        },
+        {
+          title: "  2021年12月24日辛立明教授入选国家海外高层次人才青年项目!"
+        },
+        {
+          title: "  2021年12月14日辛立明教授入选上海市领军人才!"
+        }
+],
+}
+],
 }
